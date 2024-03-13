@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Valutico</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link rel="stylesheet" type="text/css" href="web.css" />
 </head>
 
@@ -14,19 +15,25 @@
       <img src="images/logo@2x.png" width="150" alt="Picture">
     </div>
 
-    <nav>
+    <nav class="navLinks">
+      <i class="fas fa-times"></i>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Solutions</a></li>
         <li><a href="#">Your work</a></li>
         <li><a href="#">Company</a></li>
       </ul>
-    </nav>
-    <div>
-      <button class="primary-btn">
+      <button class="primary-btn" id="mobile-btn">
         Request a Demo
-        <img src="images/Frame.png" alt="icon" />
+        <img src="images/icon.svg" alt="icon" />
       </button>
+    </nav>
+    <div class="mobile-menu">
+      <button class="primary-btn" id="btnNone">
+        Request a Demo
+        <img src="images/icon.svg" alt="icon" />
+      </button>
+      <i class="fas fa-bars"></i>
     </div>
   </div>
   <main>
@@ -42,7 +49,7 @@
           <div class="head_links">
             <button class="primary-btn">
               Request a Demo
-              <img src="images/Frame.png" alt="icon" />
+              <img src="images/icon.svg" alt="icon" />
             </button>
             <button class="white">Sign/Login</button>
           </div>
@@ -58,7 +65,18 @@
           natural and international centers over 75 countries.
         </p>
         <div class="trusted-logos">
-          <img src="images/companylist.png" alt="The list of trusted firms" />
+          <img src="images/Image 1.png" alt="">
+          <img src="images/Image 2.png" alt="">
+          <img src="images/Image 3.png" alt="">
+          <img src="images/Image 4.png" alt="">
+          <img src="images/Image 5.png" alt="">
+          <img src="images/Image 6.png" alt="">
+          <img src="images/Image 7.png" alt="">
+          <img src="images/Image 8.png" alt="">
+          <img src="images/Image 9.png" alt="">
+          <img src="images/Image 10.png" alt="">
+          <img src="images/Image 11.png" alt="">
+          <img src="images/Image 12.png" alt="">
         </div>
       </div>
     </div>
@@ -142,7 +160,7 @@
       <div class="dave">
         <button id="btn" class="primary-btn">
           Request a Demo
-          <img src="images/Frame.png" alt="icon" />
+          <img src="images/icon.svg" alt="icon" />
         </button>
       </div>
     </div>
